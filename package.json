@@ -7,5 +7,27 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "webpack": "^5.72.0",
+    "webpack-dev-server": "^4.9.3",
+    "workbox-sw": "^6.8.2"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^7.18.2",
+    "clean-webpack-plugin": "^4.8.1",
+    "css-loader": "^6.7.1",
+    "file-loader": "^8.3.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.0",
+    "react-scripts": "^5.0.0",
+    "style-loader": "^3.4.4",
+    "sw-precache-webpack-plugin": "^6.3.1",
+    "terser-webpack-plugin": "^5.73.0"
+  }
 }
